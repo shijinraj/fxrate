@@ -128,6 +128,7 @@ service: https://www.exchangerate-api.com/docs/standard-requests
 * Real time call spanned to exchangerate-api to read the current exchange rate in terms of X/Y. 
 * Read the report data in terms of base currency: EUR -   This reads the daily report data from the XML file and base currency is  always  EUR.Daily Report Scheduler is configured for the same.
 * A daily report should be created. Content of the file should be o Include any changes of exchange rates  - Daily Report Scheduler is configured for the same.
+* euroCurrencyChanges will be always "1" since we have taken Euro as base currency.
 * 2 pd (person days) of development efforts for the MVP (Minimum Viable Product).
 
 ## Improvements
