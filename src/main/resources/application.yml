@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    description: "Exchange Rate microservice"
+    name: ExchangeRate
+    version: 1.0-SNAPSHOT
+  cloud:
+    config:
+      enabled: false
